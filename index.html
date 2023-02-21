@@ -58,7 +58,7 @@
           <h1 class="main-section-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="main-section-button" type="button">
+          <button data-modal-open class="main-section-button" type="button">
             Order Service
           </button>
         </div>
@@ -427,5 +427,15 @@
         </div>
       </div>
     </footer>
+
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="button-close">
+          <img src="./images/close.svg" alt="close" />
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
